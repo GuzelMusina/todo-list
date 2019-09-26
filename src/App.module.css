@@ -11,9 +11,17 @@
 .inputContainer{
     display: flex;
 }
+
 .actionButton{
     margin-left: 16px;
+    background-color: palevioletred;
+    border-color: palevioletred;
 }
+.actionButton:hover{
+    background-color: pink;
+    border-color: white;
+}
+
 .listContainer{
      padding-top: 16px;
  }
